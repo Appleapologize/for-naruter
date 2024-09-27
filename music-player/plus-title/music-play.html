@@ -1,0 +1,11 @@
+<div id="bgmBtn">
+    <input type="hidden" id="bgmStatus" value="">
+    <div id="bgmVisual"></div>
+      <div id="videoTitle">
+        <p id="marqueeText">음악 정지</p>
+      </div> <!-- 동영상 제목 표시 영역 -->
+    <button class="play" onclick="bgm('play');">&#9654;</button>
+    <button class="stop" onclick="bgm('stop');">&#9632;</button>
+    <script>window.addEventListener('load', () => bgm('stop'));</script>
+      <div id="bgm"></div>
+</div>
