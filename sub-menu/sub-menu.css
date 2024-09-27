@@ -1,0 +1,95 @@
+:root{ --btn-sub-color:red;
+       --btn-sub-hover-color:blue;
+       --btn-ssub-color:gray;
+       --btn-ssub-hover-color:black;
+      /* 서브메뉴 버튼 색상 지정 */
+
+
+      --btn-ssub-background:#c3eeff;
+      /* 서브메뉴 버튼 배경 색상*/}
+
+div.navmenu{
+    ALIGN-ITEMS: CENTER;
+    JUSTIFY-CONTENT: center;
+    display: flex;
+    border: 0;
+    cursor: pointer;
+    
+        }
+
+ul{list-style:none;
+position:relative;
+   margin: 0;
+    padding: 0;
+  }
+
+li{list-style:none;
+ padding: 5px;
+background:
+    center / contain no-repeat var(--nav-img),
+    left top / auto repeat var(--sub-color) var(--nav-pattern);
+ 
+  }
+
+div.navmenu ul li {align-items:center; justify-content:center;position: relative;}
+
+div.navmenu ul li ul.sub {
+    display:none;
+    position:absolute;
+  text-align: center;;
+    min-width: 0;
+ }
+
+
+div.navmenu ul li:hover > ul.sub {
+    display:block;
+}
+
+div.navmenu ul li ul.sub li{ position: relative;}
+
+div.navmenu ul.sub li ul.ssub {
+  display:none;
+  position:absolute;
+  text-align: center;
+  color: var(--point-color);
+  min-width: 0;
+}
+
+
+div.navmenu ul li ul.sub li:hover > ul.ssub {
+  display:block;
+  top:14%;
+  left: 100%;position:absolute;
+   }
+
+a.btn-sub{ 
+    display:block;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--btn-sub-color);
+    color: var(--btn-text-color);
+    border-radius: var(--button-round);
+    margin:0px 0 0 0;
+    padding: 10px 20px;
+}
+
+a.btn-sub:hover{
+  background-color:var(--btn-sub-hover-color);
+               }
+
+a.btn-sub-sub{
+  display:block;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: var(--btn-ssub-color);
+  color: var(--btn-text-color);
+  border-radius: var(--button-round);    
+  min-width: var(--buttomin-width);
+  border-radius: var(--button-round);
+  margin:2px 0 0 0;
+  padding: 10px 20px;
+}
+
+a.btn-sub-sub:hover{ 
+  background-color:var(--btn-ssub-hover-color);
+}
