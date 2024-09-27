@@ -6,3 +6,7 @@
 
 로토리님께서 배포하신 나루터 깃허브는 이쪽입니다.
 <a href="https://github.com/rotorri/naruter">나루터 다운받으러 가기</a>
+
+<br><br>
+
+timeline의 경우 나루터가 아니더라도 사용 가능합니다.
