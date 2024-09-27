@@ -39,6 +39,14 @@ height:auto;
     color: var(--bad-color);
 }
 
+#bgmBtn #bgmStatus[value="prev"] ~ .play {
+    color: var(--good-color);
+}
+
+#bgmBtn #bgmStatus[value="next"] ~ .play {
+    color: var(--good-color);
+}
+
 #bgm {
     display: none;
 }
