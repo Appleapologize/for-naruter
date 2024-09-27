@@ -1,0 +1,13 @@
+<div id="bgmBtn">
+    <input type="hidden" id="bgmStatus" value="stop">
+    <div id="bgmVisual"></div>
+      <div id="videoTitle">
+        <p id="marqueeText">음악 정지</p>
+      </div> <!-- 동영상 제목 표시 영역 -->
+    <button class="play" onclick="bgm('play');">▶</button>
+    <button class="stop" onclick="bgm('stop');">■</button>
+    <button class="prev" onclick="bgm('prev');">◀◀</button> <!-- 이전 곡 버튼 -->
+    <button class="next" onclick="bgm('next');">▶▶</button> <!-- 다음 곡 버튼 -->
+    <script>window.addEventListener('load', () => bgm('stop'));</script>
+      <iframe id="bgm" frameborder="0" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/?listType=playlist&amp;list=PLqBWcx7bWEcEdGFj6_kYjMchla4Q5tn1b&amp;autoplay=1&amp;loop=1&amp;disablekb=1&amp;playsinline=1&amp;rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fappleapologize.naru.pub&amp;widgetid=1"></iframe>
+</div>
