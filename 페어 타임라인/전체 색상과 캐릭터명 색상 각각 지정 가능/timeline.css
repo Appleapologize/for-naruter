@@ -24,20 +24,7 @@
 
 
 #timeline{  margin: 0 auto;}
-#timeline-title{text-align:center;
-               display:flex;
-               width:100%;
-               margin:10px;}
 
-#timeline-title .left-title{background:red;
-                           width:50%;
-                           margin:0 10 0 0;}
-#timeline-title .right-title{background:green;
-                            width:50%;
-                            margin:0 0 0 10;}
-@media only screen and (max-width: 700px) {#timeline-title{display:none;}}
-
-/*타임라인 css*/
 #conference-timeline {
   position: relative;
   max-width: 920px;
