@@ -39,11 +39,11 @@ height:auto;
     color: var(--bad-color);
 }
 
-#bgmBtn #bgmStatus[value="prev"] ~ .play {
+#bgmBtn #bgmStatus[value="prev"] ~ .ptev {
     color: var(--good-color);
 }
 
-#bgmBtn #bgmStatus[value="next"] ~ .play {
+#bgmBtn #bgmStatus[value="next"] ~ .next {
     color: var(--good-color);
 }
 
