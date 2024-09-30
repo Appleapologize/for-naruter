@@ -41,9 +41,6 @@ function updateVideoTitle() {
 function updateTitle(newTitle) {
     const marqueeText = document.getElementById('marqueeText');
     
-    // 현재 애니메이션을 제거
-    marqueeText.style.animation = 'none';
-    
     // 새로운 텍스트로 업데이트
     marqueeText.textContent = newTitle;
 
