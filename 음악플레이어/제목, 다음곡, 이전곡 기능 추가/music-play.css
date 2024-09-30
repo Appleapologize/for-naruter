@@ -39,7 +39,7 @@ height:auto;
     color: var(--bad-color);
 }
 
-#bgmBtn #bgmStatus[value="prev"] ~ .ptev {
+#bgmBtn #bgmStatus[value="prev"] ~ .prev {
     color: var(--good-color);
 }
 
