@@ -1,71 +1,29 @@
+@charset "utf-8";
 #bgmBtn {
     /*position: absolute;*/
     display: flex;
   justify-content: center;
-  margin:0 auto;   
+  margin:10px auto 0;/*수정 됨*/
 width:100%;
 height:auto;
    
 }
 
-#bgmBtn button {
-    padding: 0;
-    color: var(--disable-color);
-    background-color: var(--clear);
-    min-width: 0;
-}
+/*bgmBtn쪽 추가 css*/
 
-#bgmVisual {
-    width: var(--bgm-img-width);
-    height: var(--bgm-img-height);
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-image: var(--bgm-play-img);
-}
-
-
-#bgmBtn button {
-    padding: 0;
-    color: var(--disable-color);
-    background-color: var(--clear);
-    min-width: 0;
-}
-
-#bgmBtn #bgmStatus[value="play"] ~ .play {
-    color: var(--good-color);
-}
-
-#bgmBtn #bgmStatus[value="stop"] ~ .stop {
+#bgmBtn #bgmStatus[value="prev"] ~ .prev {
     color: var(--bad-color);
 }
 
-#bgmBtn #bgmStatus[value="prev"] ~ .prev {
-    color: var(--good-color);
-}
-
 #bgmBtn #bgmStatus[value="next"] ~ .next {
-    color: var(--good-color);
+    color: var(--bad-color);
 }
 
-#bgm {
-    display: none;
-}
+/*nav쪽 추가*/
+nav h1{margin:0;}
 
-nav {
-    background:
-    center / contain no-repeat var(--nav-img),
-    left top / auto repeat var(--sub-color) var(--nav-pattern);
-    position: relative;
-    width: var(--nav-width);
-    height: 100%;
-    text-align: center;
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: var(--box-padding);
-}
-/*추가 bgm쪽 css*/
+/*bgm쪽 추가 css*/
+
 #videoTitle {
     width: 60%;
     flex: 0 0 auto;
@@ -74,6 +32,8 @@ nav {
     overflow: hidden;
     text-align: center;
     margin: 0 10px;
+    background: white;
+    border-radius: 30px;
 }
 
 #marqueeText {
@@ -86,3 +46,11 @@ nav {
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
 }
+
+
+@media screen and (max-width: 639px) {    
+    #bgmBtn {
+        display: flex;/*none에서 수정*/
+    }
+}
+
