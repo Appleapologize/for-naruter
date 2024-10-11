@@ -1,23 +1,27 @@
 @charset "utf-8";
 body:has(#gallery-notice){display: block;}
 
+:root{ --gallery-box-color: white;/*작은 박스 배경 색*/
+       --gallery-box-shadow: 0 10px 10px rgba(0, 0, 5, 0.1); /* 작은박스 그림자*/
+       --gallery-box-between: 30px;/*작은 박스 사이간격*/}
+
         #masonry-gallery {
             display: flex;
             flex-wrap: wrap;
-            gap: 30px; /* 요소들 사이의 간격 */
+            gap: var(--gallery-box-between);
             width: 90%;
-          padding: 10px;
+            padding: 10px;
             margin: 0 auto;
-            align-items:center; /*flex-start; /* 자식 요소들을 위쪽에 정렬 */
+            align-items:center;
         }
 
         .gallery-img {
-            background: white;
+            background: var(--gallery-box-color);
             margin: 5px auto;
             padding: 10px;
             border-radius: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 조정 */
-            flex: 1 1 calc(25% - 30px); /* 4열 레이아웃 */
+            box-shadow:var(--gallery-box-shadow);
+            flex: 1 1 calc(25% - 30px); /* 기본 4열 레이아웃 */
             box-sizing: border-box;
         }
 
