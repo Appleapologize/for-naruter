@@ -2,6 +2,7 @@
   overflow: hidden;
   width: 100%;
   position: relative;
+  box-shadow:var(--gallery-box-shadow);
   /*display:flex;/*가로 배열시 해당 코드 추가*/
   /*flex: 1 1 calc(25% - 30px);/*가로 배열시 해당 코드 추가*/
 }
