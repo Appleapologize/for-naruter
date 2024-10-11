@@ -2,6 +2,8 @@
   overflow: hidden;
   width: 100%;
   position: relative;
+  /*display:flex;/*가로 배열시 해당 코드 추가*/
+  /*flex: 1 1 calc(50% - 30px);/*가로 배열시 해당 코드 추가*/
 }
 
 .slides {
@@ -9,9 +11,10 @@
   transition: transform 0.5s ease-in-out;
 }
 
-.gallery-img {
+.slides .gallery-img {
   flex: 0 0 auto;
   width: 100%;
+  height: fit-content;
 }
 
 .gallery-img img {
