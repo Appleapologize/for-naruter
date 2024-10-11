@@ -1,0 +1,39 @@
+.sns-profile{display:flex;
+            margin:10px;}
+.diary-module {
+    padding: 0;
+    display: block;
+    grid-template-columns: var(--diary-ratio);
+    position: relative;
+}
+.diary-module div.profile-img-sns{display:block;
+                                  width:50px; height:50px;
+                                 overflow:hidden;
+                                  border-radius:100%;
+                                  border:2px solid black;
+                                 margin:10px;
+                                 position: relative;}
+
+img{object-fit:cover;
+    position: absolute;
+   width:60;
+top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+
+.sns-id{padding:8px 0px;
+color:gray;}
+
+.diary-text table{ border:1px solid black; 
+                   width:50%;
+                   border-collapse: collapse;}
+
+.diary-text table tr td{padding:10px;
+                        border: 1px solid black;}
+ol{margin:0;
+  padding: 0 0px 0 13px;}
+ol li {list-style:decimal;
+       }
+
+@media (max-width: 600px) {.diary-text table{width:100%;}
+        }
