@@ -3,7 +3,7 @@
   width: 100%;
   position: relative;
   /*display:flex;/*가로 배열시 해당 코드 추가*/
-  /*flex: 1 1 calc(50% - 30px);/*가로 배열시 해당 코드 추가*/
+  /*flex: 1 1 calc(25% - 30px);/*가로 배열시 해당 코드 추가*/
 }
 
 .slides {
@@ -41,3 +41,12 @@ button {
 .next {
   right: 10px;
 }
+
+/*@media (max-width: 1200px)의 괄호 안에 밑의 코드 붙여넣기
+.slider {flex: 1 1 calc(33.33% - 30px);}/* 3열 레이아웃 */       }
+
+/*@media (max-width: 900px)의 괄호 안에 밑의 코드 붙여넣기
+.slider {flex: 1 1 calc(50% - 30px);/* 2열 레이아웃 */
+
+/*@media (max-width: 600px)의 괄호 안에 밑의 코드 붙여넣기
+                           .slider {flex: 1 1 100%;}/* 1열 레이아웃 */
