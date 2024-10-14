@@ -1,3 +1,5 @@
+#board{position: absolute;}
+
 .sns-line{
   position: absolute;
   width: 10px;/*sns 타임라인 선 두께*/
