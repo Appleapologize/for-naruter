@@ -37,16 +37,6 @@ img{object-fit:cover;
 .sns-id{padding:8px 0px;
 color:gray;}
 
-.diary-text table{ border:1px solid black;/*테두리 두께와 색상은 여기서 변경하시면 되세요*/
-                   width:50%;
-                   border-collapse: collapse;}
-
-.diary-text table tr td{padding:10px;
-                        border: 1px solid black;}
-ol{margin:0;
-  padding: 0 0px 0 13px;}
-ol li {list-style:decimal;
-       }
-
 @media (max-width: 600px) {.diary-text table{width:100%;}
+                          .sns-line{left: 10%;}
         }
