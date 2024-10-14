@@ -1,4 +1,4 @@
-#board{position: absolute;}
+#board{position: relative;}
 
 .sns-line{
   position: absolute;
