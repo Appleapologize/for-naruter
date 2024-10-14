@@ -1,3 +1,13 @@
+.sns-line{
+  position: absolute;
+  width: 10px;/*sns 타임라인 선 두께*/
+  height: 100%;
+  top: 0;
+  left: 10%;
+  margin-left: -2px;
+  background: #ebebeb;/*sns 타임라인 선 색상*/
+  z-index: -1;}
+
 .sns-profile{display:flex;
             margin:10px;}
 .diary-module {
@@ -8,22 +18,22 @@
 }
 .diary-module div.profile-img-sns{display:block;
                                   width:50px; height:50px;
-                                  overflow:hidden;
+                                 overflow:hidden;
                                   border-radius:100%;
                                   border:2px solid black;
-                                  margin:10px;
-                                  position: relative;}
+                                 margin:10px;
+                                 position: relative;}
 
 img{object-fit:cover;
     position: absolute;
     width:60;
-    /*이 밑의 top, left, transform으로 위치 조정하시면 되세요*/
+    /*이 밑의 top, */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);}
 
 .sns-id{padding:8px 0px;
-        color:gray;}
+color:gray;}
 
 .diary-text table{ border:1px solid black;/*테두리 두께와 색상은 여기서 변경하시면 되세요*/
                    width:50%;
@@ -32,7 +42,7 @@ img{object-fit:cover;
 .diary-text table tr td{padding:10px;
                         border: 1px solid black;}
 ol{margin:0;
-   padding: 0 0px 0 13px;}
+  padding: 0 0px 0 13px;}
 ol li {list-style:decimal;
        }
 
