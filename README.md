@@ -7,7 +7,7 @@
 로토리님께서 배포하신 나루터 깃허브는 이쪽입니다.
 <a href="https://github.com/rotorri/naruter">나루터 다운받으러 가기</a>
 
-대부분의 코드는 제 나루 홈페이지(<a href="https://appleapologize.naru.pub/">https://appleapologize.naru.pub/</a>)에서 확인하실 수 있습니다.
+대부분의 코드의 미리보기는 제 나루 홈페이지(<a href="https://appleapologize.naru.pub/">https://appleapologize.naru.pub/</a>)에서 확인하실 수 있습니다.
 
 <br><br>
 <h3>SNS틀</h3>
