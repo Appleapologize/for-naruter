@@ -6,7 +6,9 @@
 
 
       --btn-ssub-background:#c3eeff;
-      /* 서브메뉴 버튼 배경 색상*/}
+      /* 서브메뉴 버튼 배경 색상*/
+     
+       --nav-padding:5px;}
 
 div.navmenu{
     ALIGN-ITEMS: CENTER;
