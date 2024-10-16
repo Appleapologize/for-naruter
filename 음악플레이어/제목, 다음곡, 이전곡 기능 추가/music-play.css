@@ -1,12 +1,21 @@
 @charset "utf-8";
+:root {--nav-padding:5px;
+      --nav-height: fit-contents;}
+
 #bgmBtn {
-/*position: absolute;*/
-display: flex;
-justify-content: center;
-margin:10px auto 0;/*수정 됨*/
-width:100%;
-height:auto;
+    position: static;/*absolute 에서 변경*/
+    display: flex;
+    bottom: var(--box-gap);
 }
+
+    
+@media screen and (max-width: 639px) {
+    #bgmBtn {display: flex;/*none에서 수정*/
+            justify-content: center;
+            margin:10px auto 0;/*수정 됨*/
+            width:100%;
+            height:auto;
+}}
 
 /*bgm쪽 추가 css*/
 
@@ -21,6 +30,7 @@ height:auto;
 #bgm {
     display: none;
 }
+#bgmBtn{justify-content: center;}
 
 #videoTitle {
     width: 60%;
