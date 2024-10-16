@@ -68,11 +68,13 @@ function bgm(action) {
         }
     } else if (action == 'next') {
         if (player && player.nextVideo) {
-            player.nextVideo("value", "next"); // 다음 곡
+            player.nextVideo(); // 다음
+            status.setAttribute("value", "next");
         }
     } else if (action == 'prev') {
         if (player && player.previousVideo) {
-            player.previousVideo("value", "prev"); // 이전 곡
+            player.previousVideo(); // 이전
+            status.setAttribute("value", "prev");
         }
     }
 }
