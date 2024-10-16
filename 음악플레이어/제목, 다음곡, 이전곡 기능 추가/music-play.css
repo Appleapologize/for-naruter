@@ -2,6 +2,10 @@
 :root {--nav-padding:5px;
       --nav-height: fit-contents;}
 
+nav {
+    height: var(--nav-height);/*로 변경*/
+}
+
 #bgmBtn {
     position: static;/*absolute 에서 변경*/
     display: flex;
