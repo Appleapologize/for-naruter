@@ -3,7 +3,8 @@
       --nav-height: fit-contents;}
 
 nav {
-    height: var(--nav-height);/*로 변경*/
+padding: var(--nav-padding);/*로 변경*/
+}
 }
 
 #bgmBtn {
