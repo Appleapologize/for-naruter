@@ -8,7 +8,13 @@
       --btn-ssub-background:#c3eeff;
       /* 서브메뉴 버튼 배경 색상*/
      
-       --nav-padding:5px;}
+       --nav-padding:5px;
+       --nav-height: fit-contents;}
+nav {
+padding: var(--nav-padding);/*로 변경*/
+}
+
+nav{display:block;}
 
 div.navmenu{
     ALIGN-ITEMS: CENTER;
@@ -95,3 +101,4 @@ a.btn-sub-sub{
 a.btn-sub-sub:hover{ 
   background-color:var(--btn-ssub-hover-color);
 }
+
