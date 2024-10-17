@@ -38,6 +38,8 @@ function updateVideoTitle() {
     }
 }
 
+/*아래의 함수는 musicplay-titleisfree.js 에서는 삭제했습니다.
+function updateVideoTitle() 에서 추가 코드를 넣으니 굳이 업데이트를 안해도 잘 나오더라고요 (굿)*/
 function updateTitle(newTitle) {
     const marqueeText = document.getElementById('marqueeText');
     
