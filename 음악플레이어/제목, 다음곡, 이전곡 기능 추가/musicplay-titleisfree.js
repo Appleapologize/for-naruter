@@ -17,7 +17,7 @@ let currentIndex = 0; // 현재 곡 인덱스 추적
 
 // YouTube Iframe API가 준비되면 호출되는 함수
 function onYouTubeIframeAPIReady() {
-    let playlistId = 'PLrWUB4lPqAdRnSyYg7aTXG5On7jbuUqoO'; // 재생목록 ID
+    let playlistId = 'PLqBWcx7bWEcEdGFj6_kYjMchla4Q5tn1b'; // 재생목록 ID
     player = new YT.Player('bgm', {
         playerVars: {
             listType: 'playlist',
