@@ -1,5 +1,6 @@
 /*
 html에서는 <div id="bgmVisual"></div> 코드 밑에 하단의 코드를 붙여넣어야 합니다.
+참고로 index는 0번부터 시작하셔야 해요. 아니면 순서가 밀리더라고요
 <div id="bgmTitles" style="display:none;">
     <span data-video-index="0" data-title="첫 번째 곡 제목"></span>
     <span data-video-index="1" data-title="두 번째 곡 제목"></span>
