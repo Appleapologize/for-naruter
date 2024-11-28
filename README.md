@@ -11,7 +11,7 @@
 아니면 footer가 보이지 않습니다.
 
 
-대부분의 코드의 미리보기는 제 나루 홈페이지(<a href="https://appleapologize.naru.pub/">https://appleapologize.naru.pub/</a>)에서 확인하실 수 있습니다.
+대부분의 코드의 미리보기와 공지사항은 제 나루 홈페이지(<a href="https://appleapologize.naru.pub/">https://appleapologize.naru.pub/</a>)에서 확인하실 수 있습니다.
 
 <br><br>
 <h3>SNS틀</h3>
