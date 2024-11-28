@@ -33,3 +33,11 @@ table.sns-board tr th a{
 table.sns-board .date{
   position: static;
 }
+/*아이디가 길어지면 ...으로 바뀝니다. 그게 싫으시면 밑의 부분을 통째로 없애주세요*/
+.sns-id{padding:0;
+       overflow-wrap: break-all;
+        overflow: hidden;
+        word-break: break-all;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;}
